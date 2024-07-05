@@ -8,26 +8,26 @@
     scroll-behavior: smooth;
     font-family: "Poppins", sans-serif;
     }
-
+    
     :root {
         --bg-color: #080808;
         --second-bg-color: #131313;
         --text-color: white;
         --main-color:#00ffee;
     }
-
-
-
+    
+    
+    
     html{
     font-size: 60%;
     overflow-x: hidden;
     } 
-
+    
      body{
         background: var(--bg-color);
         color: var(--text-color);
     } 
-
+    
      .headerf {
     position: fixed;
     top: 0;
@@ -41,7 +41,7 @@
     align-items: center;
     z-index: 5;
     }
-
+    
     .logo{
     font-size: 3rem;
     color: var(--text-color);
@@ -49,14 +49,14 @@
     cursor: pointer;
     transition: 0.3s ease;
     }
-
+    
     .logo:hover{
         transform: scale(1.1);
     }
     .logo span{  
     text-shadow: 0 0 25px var(--main-color);
     }
-
+    
     .navbar a{
     font-size: 1.8rem; 
     color: var(--text-color); 
@@ -75,13 +75,13 @@
         color: var(--main-color);
         display: none;
         }
-
-
+    
+     
         section{
             min-height: 100vh;
             padding: 10rem 12% 10rem;
         }
-
+     
         .home{
             display: flex;
             align-items: center; 
@@ -96,15 +96,15 @@
             justify-content: center; 
             margin-top: 3rem;
             }
-
+    
             span{ color: var(--main-color);
             }
-
+    
             .logo span{
                 color: var(--main-color);
-
+    
             }
-
+    
     .home-content h3{
         margin-bottom: 2rem; 
         margin-top: 1rem; 
@@ -116,11 +116,11 @@
         margin-top: 1.5rem; 
         line-height: 1;
     }
-
+    
     .home-img{
     border-radius: 50%;
     }
-
+    
     .home-img img{
     position: relative;
     top: 3rem; 
@@ -153,7 +153,7 @@
         transition: color 0.3s;
     }
     .icon-container a:hover {
-        color: #1e90ff; /* Change this to the color you want on hover */
+        color: #1e90ff; /* Change this to the color you want on hover */
     }
         .btn{
         display: inline-block;
@@ -169,8 +169,8 @@
         transition: 0.35 ease-in-out; 
         cursor: pointer;
     }
-
-
+    
+    
     .btn:hover{
         transform: scale(1.05);
         box-shadow: 0 0 50px var(--main-color );
@@ -191,8 +191,8 @@
         background-color: var(--main-color);
         color: black;
     }
-
-
+    
+    
     .text-animation {
      font-size: 34px; 
      font-weight: 600; 
@@ -219,7 +219,7 @@
     @keyframes cursor{
         to{
             border-left: 2px solid var(--main-color);
-
+    
         }
     }
     @keyframes words {
@@ -234,12 +234,12 @@
         41%,
         60%{
             content:"c++ Programer";
-
+    
         }
         61%,
         80%{
             content:"Web Development";
-
+    
         }
         81%,
         100%{
@@ -298,7 +298,7 @@
         background-color: var(--main-color);
         left: calc(50% - 15px);
     }
-
+    
     .timeline-item{ 
         margin-bottom: 40px; 
         width: 100%;
@@ -355,25 +355,25 @@
     font-weight: 300;
     line-height: 22px;
     }
-
+    
     ::-webkit-scrollbar{
         width: 15px;
         }
-
+        
     ::-webkit-scrollbar-thumb{
         background-color: var(--main-color);
         }
     ::-webkit-scrollbar-track{
         background-color: var(--bg-color);
         width: 50;}
-
+    
     .contact{
         background-color: var(--bg-color);
     }
     .contact h2{
     margin-bottom: 3rem; 
     color:white;}
-
+    
     .contact form{ 
     display: flex;
     align-items: center; 
@@ -399,7 +399,7 @@
     margin: 1.5rem 0;
     resize: none;
     }
-
+    
     .contact form .btn{ 
         margin-top: 2rem;
     }
@@ -454,13 +454,13 @@
     display: inline-block;
     padding: 0 15px;
     }
-
+    
     .footer .copyright{ 
         margin-top: 58px; 
         text-align: center;
         font-size: 16px;
         color: white;}
-
+    
      @media (max-width: 991px){
             header{
             padding: 2rem 3%;
@@ -479,7 +479,7 @@
             .timeline-item:nth-child(even){
             padding-left: 37px;
             }
-
+        
             .timeline-dot{
                 left: 0;}
         .services{ 
@@ -490,16 +490,16 @@
     }
     .contact form{
     flex-direction:column;
-
+    
     }
-
+    
     .footer{
         padding: 2rem 3%;
     }
-
-
+    
+    
      }
-
+    
      @media (max-width: 895px){
     #menu-icon{
     display: block;}
@@ -526,12 +526,12 @@
     .home{
         flex-direction: column-reverse;
         margin: 5rem 4rem;
-
+    
     }
     .home-content h3{
         font-size: 2.6rem;
     }
-
+    
     .home-content h1{
         font-size: 8rem;
         margin-top: 3rem;
@@ -539,10 +539,10 @@
     .home-content p{
     max-width: 600px;
     margin: 0 auto;}
-
+    
     .home-img img{
     width: 56vw;}
-
+    
     .services h2{
     margin-bottom: 3rem;}
     .services-container{ grid-template-columns: repeat(1,1fr);
